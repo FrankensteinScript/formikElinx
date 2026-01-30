@@ -1,5 +1,12 @@
+import { Grid } from "@mui/material";
+import { RegisterForm } from "./forms/RegisterForm";
+
 function App() {
-	return <>Hi ELINX</>;
+	return (
+		<Grid>
+			<RegisterForm />
+		</Grid>
+	);
 }
 
 export default App;
